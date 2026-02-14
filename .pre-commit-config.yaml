@@ -1,0 +1,51 @@
+# ==========================================================
+# Auto-CodeLab — Pre-Commit Configuration
+# Fase 0: Governance & Quality Gate
+# ----------------------------------------------------------
+# Define validaciones automáticas antes de cada commit.
+# Garantiza:
+# - Consistencia de formato
+# - Análisis estático obligatorio
+# - Higiene básica de repositorio
+# - Prevención de errores comunes
+# ==========================================================
+
+repos:
+
+# -----------------------------
+# Code Formatting
+# -----------------------------
+# Formateo determinístico del código
+- repo: https://github.com/psf/black
+  rev: 23.3.0
+  hooks:
+    - id: black
+      language_version: python3
+
+
+# -----------------------------
+# Static Code Analysis
+# -----------------------------
+# Validación estática orientada a mantenibilidad
+- repo: https://github.com/pycqa/pylint
+  rev: v3.0.0
+  hooks:
+    - id: pylint
+      args:
+        - "--disable=C0114"
+        - "--disable=C0115"
+        - "--disable=C0116"
+
+
+# -----------------------------
+# Repository Hygiene
+# -----------------------------
+# Controles preventivos sobre el contenido del commit
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.5.0
+  hooks:
+    - id: trailing-whitespace
+    - id: end-of-file-fixer
+    - id: check-merge-conflict
+    - id: check-yaml
+    - id: check-added-large-files
