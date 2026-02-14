@@ -1,0 +1,52 @@
+# ==========================================================
+# Auto-CodeLab — Core Dependencies
+# Fase 0: Infrastructure & Governance Baseline
+# ----------------------------------------------------------
+# Baseline de dependencias para:
+# - Ejecución de pruebas
+# - Calidad estática
+# - Formateo consistente
+# - Gobernanza pre-commit
+# - Reproducibilidad controlada
+# ==========================================================
+
+
+# -----------------------------
+# Testing Framework
+# -----------------------------
+# Motor principal de ejecución de pruebas
+pytest==7.4.0
+
+
+# -----------------------------
+# Governance & Automation
+# -----------------------------
+# Orquestación de hooks antes del commit
+pre-commit==3.5.0
+
+
+# -----------------------------
+# Code Formatting
+# -----------------------------
+# Formateo determinístico y consistente
+black==23.3.0
+
+
+# -----------------------------
+# Static Code Analysis
+# -----------------------------
+# Análisis estático orientado a mantenibilidad
+pylint==3.0.0
+
+
+# -----------------------------
+# Evolución Controlada
+# -----------------------------
+# Fase 1 → API: requests, pydantic
+# Fase 2 → UI: playwright
+# Fase 3 → Reporting: allure-pytest
+# Fase 4 → AI: openai
+#
+# Las dependencias se incorporan progresivamente
+# para preservar estabilidad arquitectónica.
+# ==========================================================

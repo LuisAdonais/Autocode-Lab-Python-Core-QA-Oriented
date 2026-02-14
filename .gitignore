@@ -1,0 +1,25 @@
+# -----------------------------
+# Virtual environments (local)
+# -----------------------------
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Pytest & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE configs (local only)
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
