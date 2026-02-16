@@ -1,227 +1,129 @@
 # 🚀 Auto-CodeLab
 
-**Repositorio:**
+**Laboratorio personal de QA Automation en construcción**
 
-![Python     ](https://img.shields.io/badge/Python-3.12%2B-blue?style=for-the-badge\&logo=python)
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?style=for-the-badge\&logo=python)
 ![Pytest](https://img.shields.io/badge/Test%20Runner-Pytest-yellow?style=for-the-badge\&logo=pytest)
 ![Playwright](https://img.shields.io/badge/UI%20Automation-Playwright-green?style=for-the-badge\&logo=playwright)
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black?style=for-the-badge\&logo=githubactions)
 
 ---
 
-# -----------------------------
+## **📌 Sobre este proyecto**
 
-# Alcance del Proyecto
+Auto-CodeLab es mi laboratorio personal dedicado a practicar QA Automation de manera intencional y progresiva.
 
-# -----------------------------
+Este espacio me permite:
 
-Auto-CodeLab es un laboratorio estructurado de QA Automation.
+* Fortalecer conocimientos fundamentales de Python aplicados a la automatización.
+* Profundizar en el desarrollo y ejecución de pruebas automatizadas con enfoque práctico.
+* Simular flujos y exigencias propias de un entorno profesional realista.
+* Registrar y reflexionar sobre mi evolución técnica.
+* Prepararme con confianza para enfrentar desafíos laborales en la industria.
 
-Diseñado para:
-
-* Consolidar fundamentos sólidos en Python aplicados a testing.
-* Construir frameworks de automatización escalables.
-* Implementar validaciones obligatorias vía CI.
-* Integrar IA como acelerador técnico controlado.
-* Simular estándares reales de un equipo SDET.
-
-No es un repositorio académico.
-Es un entorno de ingeniería progresiva con enfoque profesional.
+**No es un curso tradicional.
+No se basa únicamente en teoría.
+Aquí todo se aprende haciendo, probando y versionando cada avance.**
 
 ---
 
-# -----------------------------
+## **🎯 Mi Enfoque**
 
-# Principios de Ingeniería
+Cada tema que aparece en este repositorio:
 
-# -----------------------------
+* Está implementado.
+* Está probado.
+* Está ejecutado.
+* Está documentado.
 
-🧩 Separación clara de responsabilidades
-🔁 Ejecución determinística de pruebas
-🧪 Aislamiento mediante fixtures
-📦 Arquitectura modular por dominio
-⚙ Validaciones automáticas en pipeline
-🔍 Análisis estático integrado
-🤖 IA asistida con validación humana
+🤖 **Uso de la Inteligencia Artificial en mi aprendizaje**
+
+La IA es una herramienta estratégica que implemento en mi proceso de formación profesional para:
+
+* Investigar y asimilar conceptos técnicos más rápidamente.
+* Explorar ideas creativas para nuevos casos de prueba.
+* Identificar oportunidades de mejora en el código y los tests.
+* Refinar la documentación y el diseño de pruebas.
+
+Sin embargo, la responsabilidad sigue siendo mía:
+
+* Yo diseño y escribo el código.
+* Yo verifico y valido todos los resultados.
+* Yo depuro, soluciono y mejoro errores.
+* Yo tomo las decisiones técnicas finales.
+
+La inteligencia artificial potencia y agiliza mi crecimiento, pero no sustituye mi criterio ni mi esfuerzo como desarrollador.
 
 ---
 
-# -----------------------------
-
-# Arquitectura del Repositorio
-
-# -----------------------------
+## 🧱 Estructura del Repositorio
 
 ```
 Auto-CodeLab/
 │
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── pytest.ini
-├── .env.example
-│
-├── dev_ops_tools/
-├── docs/
 ├── python-qa-progress/
 ├── qa-modern-ia-portfolio/
 ├── ui-automation-playwright/
 ├── api-testing-framework/
 ├── ai-powered-suite/
+├── dev_ops_tools/
 ├── reports/
 └── .github/workflows/
 ```
 
-Objetivos arquitectónicos:
+---
 
-* Separación por capas (fundamentos, UI, API, IA).
-* Independencia entre módulos.
-* Compatibilidad con integración continua.
-* Escalabilidad controlada.
+## 📚 Progreso de Aprendizaje
+
+Este laboratorio refleja mi evolución real como QA Automation Junior.
+
+| Área                      | Qué practico                                   | Estado         |
+| ------------------------- | ---------------------------------------------- | -------------- |
+| 🧠 Fundamentos Python     | OOP, manejo de errores, logging, pytest básico | 🟢 Completado  |
+| 🎭 Automatización UI      | Playwright + Page Object Model                 | 🟡 En progreso |
+| 🌐 Testing de APIs        | Requests + validaciones estructurales          | 🟡 En progreso |
+| 📋 Documentación QA       | Planes de prueba y reportes                    | 🟡 En progreso |
+| 🤖 IA aplicada al testing | Generación asistida de casos                   | 🟡 En progreso |
+| ⚙ CI/CD básico            | GitHub Actions + pre-commit                    | 🟡 En progreso |
 
 ---
 
-# -----------------------------
+### Estados que uso
 
-# Capas de Testing
-
-# -----------------------------
-
-## 🧠 python-qa-progress
-
-Capa base de ingeniería:
-
-* Fundamentos de Python aplicados a automatización.
-* Programación orientada a objetos.
-* Manejo estructurado de excepciones.
-* Configuración de logging.
-* Pruebas unitarias con Pytest.
-
-Base disciplinada antes de construir frameworks.
+* 🔵 Pendiente → Tema identificado pero aún no trabajado.
+* 🟡 En progreso → En construcción activa y aprendizaje.
+* 🟢 Completado → Implementado y funcional a mi nivel actual.
 
 ---
 
-## 📋 qa-modern-ia-portfolio
+---
 
-Artefactos estratégicos de QA:
+## 🧪 Qué estoy practicando
 
-* Planes de prueba.
-* Checklists de regresión y smoke.
-* Reportes de defectos.
-* Validaciones SQL.
-* Casos de estudio funcionales.
+En este laboratorio no solo escribo tests.
+Estoy practicando el proceso completo para formarme como QA profesional.
 
-Simula entregables reales de QA Manual y QA Estratégico.
+Actualmente trabajo en:
+
+* Creación y estructuración de un repositorio profesional desde cero.
+* Organización de carpetas con enfoque en claridad y mantenibilidad.
+* Uso de Git y control de versiones de forma disciplinada.
+* Escritura de pruebas con Pytest.
+* Implementación básica de Page Object Model en UI.
+* Validaciones CRUD en testing de APIs.
+* Configuración de CI con GitHub Actions.
+* Uso de pre-commit para validaciones automáticas.
+
+También estoy profundizando en:
+
+* Python aplicado a automatización.
+* QA Manual (casos de prueba, reportes de defectos, análisis funcional).
+* Buenas prácticas de documentación técnica.
+* Pensamiento estructurado para análisis de bugs.
 
 ---
 
-## 🎭 ui-automation-playwright
-
-Framework de automatización UI:
-
-* Implementación de Page Object Model (POM).
-* Abstracción de componentes reutilizables.
-* Uso explícito de fixtures.
-* Captura automática en fallos.
-* Utilidades para validación visual.
-* Configuración por entorno.
-
-Diseñado para mantenibilidad y ejecución en CI.
-
----
-
-## 🌐 api-testing-framework
-
-Framework de validación API:
-
-* Cliente HTTP desacoplado.
-* Builder de payloads.
-* Validación estructural de respuestas.
-* Cobertura CRUD.
-* Ejecución basada en Pytest.
-
-Enfocado en integridad de contrato y consistencia de datos.
-
----
-
-## 🤖 ai-powered-suite
-
-Capa experimental asistida por IA:
-
-* Generación dinámica de casos de prueba.
-* Detección de edge cases.
-* Análisis de resiliencia de selectores.
-* Integración con LLM.
-* Prototipo de métricas automatizadas.
-
-Extensión estratégica, no dependencia estructural.
-
----
-
-## ⚙ dev_ops_tools
-
-Herramientas de soporte técnico:
-
-* Inicialización de repositorio.
-* Bootstrap de entorno.
-* Validaciones para CI.
-* Automatización de limpieza de reportes.
-
-Refuerza reproducibilidad y consistencia.
-
----
-
-## 📊 reports
-
-Artefactos de ejecución:
-
-* Resultados Allure.
-* Reportes HTML.
-* Logs estructurados.
-* Métricas de ejecución.
-
-Garantiza trazabilidad y diagnóstico técnico.
-
----
-
-# -----------------------------
-
-# Quality Gates y Controles de Integración
-
-# -----------------------------
-
-✔ Validación mediante pre-commit
-✔ Pipeline obligatorio en GitHub Actions
-✔ Análisis estático con CodeQL
-✔ Ejecución automática de pruebas antes de merge
-✔ Integración controlada por ramas
-
-No se permite integración sin validación automatizada.
-
----
-
-# -----------------------------
-
-# Stack Tecnológico
-
-# -----------------------------
-
-* Python 3.12+
-* Pytest (fixtures, parametrización, hooks)
-* Playwright
-* Requests
-* GitHub Actions
-* CodeQL
-* Allure
-* Integración con APIs LLM
-
----
-
-# -----------------------------
-
-# Setup y Ejecución
-
-# -----------------------------
+## ⚙ Cómo ejecutarlo
 
 Clonar repositorio:
 
@@ -242,7 +144,7 @@ Ejecutar pruebas:
 pytest
 ```
 
-Ejecutar validaciones locales:
+Validaciones locales:
 
 ```bash
 pre-commit run --all-files
@@ -250,48 +152,30 @@ pre-commit run --all-files
 
 ---
 
-# -----------------------------
+## 📈 Objetivo Profesional
 
-# Estrategia de Evolución
+Estoy construyendo:
 
-# -----------------------------
+* Base sólida en automatización.
+* Disciplina técnica.
+* Buenas prácticas desde el inicio.
+* Capacidad de trabajar con CI.
+* Uso responsable de IA como herramienta profesional.
 
-Progresión estructurada:
+Mi meta es integrarme a un equipo donde pueda:
 
-1. Dominio de fundamentos.
-2. Construcción de framework UI.
-3. Validación robusta de API.
-4. Integración controlada de IA.
-5. Madurez en CI/CD.
-
-Complejidad creciente.
-Arquitectura estable.
-
----
-
-# -----------------------------
-
-# Objetivo Profesional
-
-# -----------------------------
-
-Este repositorio demuestra:
-
-* Comprensión de arquitectura de testing.
-* Capacidad de diseño de frameworks.
-* Integración con CI/CD.
-* Criterio técnico en automatización.
-* Aplicación estratégica de IA.
-
-Orientado a desempeño en equipos reales de QA Automation o SDET.
+* Seguir aprendiendo.
+* Aportar disciplina y estructura.
+* Crecer hacia un perfil SDET en el futuro.
 
 ---
 
-## 🤝 Conexión Profesional
+## 🤝 Contacto Profesional
 
-Si trabajas en QA Automation, DevOps o IA aplicada al testing,
-estoy abierto a intercambio técnico, feedback o colaboración.
+Si eres reclutador o trabajas en QA Automation:
 
-LinkedIn | GitHub | Email Profesional
+Estoy abierto a feedback técnico y oportunidades junior donde pueda seguir creciendo.
+
+LinkedIn | GitHub | Email
 
 ---
